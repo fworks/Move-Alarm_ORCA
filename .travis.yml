@@ -5,7 +5,7 @@ jobs:
   include:
   - stage: test
     jdk: openjdk8
-    script: ".\MoveAlarmServ\gradlew build -p .\MoveAlarmServ\"
+    script: "./MoveAlarmServ/gradle build -p ./MoveAlarmServ/"
     #after_success:
     #- bash <(curl -s https://codecov.io/bash)
     
